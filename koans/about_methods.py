@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#
+# 
 # Partially based on AboutMethods in the Ruby Koans
 #
 
@@ -33,7 +33,7 @@ class AboutMethods(Koan):
             msg = e.args[0]
 
         # Note, watch out for parenthesis. They need slashes in front!
-        self.assertRegex(msg,3,2,4,5)
+        self.assertRegex(msg,'my_global_function missing 2 required positional arguments')
 
     # ------------------------------------------------------------------
 
